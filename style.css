@@ -1,0 +1,90 @@
+
+:root { 
+  --main-color: #E5DAC4;
+  --second-color: #675538;
+  --third-color: #6B9A73;
+}
+
+
+body {background-color: var(--main-color);}
+
+.navbar {
+  background-color: red; 
+}
+
+.navbar .navbar-nav .nav-link {
+  color: var(--second-color); 
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: var(--third-color); 
+}
+
+
+.carousel-item {
+    height: 500px;
+  }
+  
+  .carousel-item img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .header h1 {
+    font-size: 4rem;
+  }
+  
+  .header p {
+    font-size: 1.5rem;
+  }
+
+  .image-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* :root {
+ 
+--main-color: #7fbc8c;
+--second-color: pink;
+--sky-color: #4792E1;
+}
+
+
+
+h1{
+    font-size: clamp(2.5rem, 4vw, 4rem);
+    /*font-size: calc(5vw + 1rem);
+color: var(--sky-color);
+}
+
+
+img{
+    width: 47%;
+    border: 5px solid var(--main-color);}
+
+img:hover {filter: greyscale (90%);}
+
+img:first-child {
+    filter: invert(100%);
+}
+
+
+img:last-child {filter: blur(2px);}
+
+
+h2 {color: var(--second-color);} */
+
+
+
+/* FIGURE OUT BACKROUND COLOR
+.navbar {background-color: red;}
+
+nav {background-color: red;}
+*/
